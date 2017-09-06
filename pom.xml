@@ -5,7 +5,7 @@
 	<groupId>com.mkyong</groupId>
 	<artifactId>CounterWebApp</artifactId>
 	<packaging>war</packaging>
-	<version>${version}</version>
+	<version>1.0</version>
 	<name>CounterWebApp Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -118,12 +118,12 @@
 	<repository>
 		<id>releases</id>
 		<name>releases</name>
-		<url>http://52.32.249.98:8081/nexus/content/repositories/releases/</url>
+		<url>http://54.203.111.158:8081/repository/maven-releases/</url>
 	</repository>
 	<snapshotRepository>
 		<id>snapshots</id>
 		<name>snapshots</name>
-		<url>http://52.32.249.98:8081/nexus/content/repositories/snapshots/</url>
+		<url>http://54.203.111.158:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
 </distributionManagement>
 </project>
